@@ -1,0 +1,7 @@
+FROM python:3.10-slim
+
+# Assume the package was built already
+COPY dist/ /app/
+
+# Install the package and fetch its dependencies
+RUN pip install --no-cache-dir /app/*.whl
