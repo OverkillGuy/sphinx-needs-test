@@ -36,7 +36,7 @@ sphinx-autoapi = "*"
 # Plantuml diagrams
 sphinxcontrib-plantuml = "*"
 # Sphinx-needs branch, to prove matplotlib not there
-sphinx-needs = { git = "https://github.com/OverkillGuy/sphinxcontrib-needs.git", branch = "optional-matplotlib-rebased" }
+sphinx-needs = { git = "https://github.com/OverkillGuy/sphinxcontrib-needs.git", branch = "optional-matplotlib-rebased", extras = ["matplotlib"]}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
