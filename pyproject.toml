@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "sphinx_needs_test"
-version = "0.1.0"
+version = "0.2.0"
 description = "A test to show matplotlib-less sphinx-needs"
 authors = ["Jb Doyon <jb@jiby.tech>"]
 readme = "README.md"
