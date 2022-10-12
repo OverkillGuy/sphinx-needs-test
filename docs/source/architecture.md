@@ -16,3 +16,11 @@
 .. needtable:: Requirements list
    :style: table
 ```
+
+```{eval-rst}
+.. needpie:: My pie chart
+
+   type == 'req'
+   type == 'spec'
+   10
+```
