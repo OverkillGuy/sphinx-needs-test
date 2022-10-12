@@ -33,6 +33,8 @@ extensions = [
     "sphinx.ext.autosummary",
     "sphinx.ext.autosectionlabel",
     "sphinx.ext.viewcode",
+    "sphinx_needs",
+    'sphinxcontrib.plantuml',
     "autoapi.extension",
     "myst_parser",
 ]

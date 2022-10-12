@@ -9,3 +9,4 @@ documentation.
 
    Readme <readme>
    Changelog <changelog>
+   Architecture <architecture>
